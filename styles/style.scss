@@ -1,0 +1,15 @@
+
+// file importing (for part in sass project)
+@import "./variables";
+@import "./header";
+
+// header button {
+//     background: $primaryBtn;
+// }
+
+.contact {
+    // @include flexCenter(row, blue);
+    @extend header;
+    background: lightcoral;
+    width: 100% - 20%;
+}
